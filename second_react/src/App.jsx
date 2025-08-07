@@ -9,19 +9,20 @@ function GetComponentsWithProps(){
     for (const element in placesData){
         let ComponentInstance = <EntryComponent />;
 
-        for (const [k, value] of Object.entries(element)){
-            React.cloneElement(ComponentInstance, {k: value});
-        }
+        for (const [keyName, valueName] of Object.entries(placesData[element])){
+            let data = {};
+            data[keyName] = valueName;
 
+            ComponentInstance = React.cloneElement(ComponentInstance, data);
+        }
+        
+        console.log(ComponentInstance);
         components.push(ComponentInstance);
     }
-
     return components;
 }
 
 export default function App(){
-    console.log(placesData);
-
     return (
         <>
             <HeaderComponent />
