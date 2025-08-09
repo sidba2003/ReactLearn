@@ -1,0 +1,58 @@
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: solid;
+    border-bottom-color: rgb(236, 229, 229);
+    border-bottom-width: 0.5px;
+}
+
+
+.header-img {
+    width: 45px;
+    margin-right: 15px;
+}
+
+
+.header-text {
+    font-size: x-large;
+}
+
+.ingredient-form {
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.input-text {
+    height: 35px;
+    width: 300px;
+
+    margin-right: 15px;
+
+    border-radius: 5px;
+
+    border-width: 0.5px;
+    border-color: rgb(219, 214, 214);
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.input-submit {
+    background-color: black;
+    color: white;
+
+    width: 200px;
+
+    border-radius: 5px;
+
+    border: none;
+}
