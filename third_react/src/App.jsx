@@ -5,7 +5,10 @@ export default function App(){
     return (
         <>
             <HeaderComponent />
-            <FormComponent />
+            
+            <div className='main-data'>
+                <FormComponent />
+            </div>
         </>
     );
 }

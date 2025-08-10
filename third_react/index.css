@@ -56,3 +56,10 @@
 
     border: none;
 }
+
+
+.main-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
