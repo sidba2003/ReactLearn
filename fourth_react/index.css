@@ -1,0 +1,112 @@
+.header-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
+}
+
+.header-class > img {
+    height: 100%;
+    margin-right: 6px;
+}
+
+.header-class > header-title-class {
+    font-size: 1.25rem;
+    margin-right: auto;
+}
+
+.main-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs-class {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    width: 180px;
+    height: 32px;
+
+    border-color: rgb(206, 198, 198);
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+label {
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+label > span {
+    font-weight: bold;
+}
+
+button {
+    background: linear-gradient(90deg, #7f14a7 1.18%, #b59ad1 100%);
+    margin-top: 30px;
+    width: 400px;
+    height: 32px;
+    color: white;
+
+    border: none;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.6;
+}
+
+.meme-image-class {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+    margin-top: 30px;
+
+    width: 350px;
+}
+
+.meme-image-class > img {
+    width: 350px;
+}
+
+.meme-image-class > span {
+    position: absolute;
+    color: white;
+
+    font-size: larger;
+
+    width: 100%;
+
+    word-wrap: break-word;
+
+    text-align: center;
+}
+
+.meme-image-top-text-class {
+    top: 0px;
+}
+
+.meme-image-bottom-text-class {
+    bottom: 0px;
+}
