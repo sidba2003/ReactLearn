@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(46, 45, 45);
+}
+
+#root {
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.game-header {
+    color: white;
+    font-size: xx-large;
+}
+
+.game-description {
+    color: white;
+    font-size: larger;
+
+    margin: 15px;
+
+    text-align: center;
+}
+
+.game-state-class {
+    margin: 15px;
+
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    padding: 7px;
+
+    gap: 10px;
+}
+
+.game-won-class {
+    background-color: rgb(27, 197, 27);
+}
+
+.game-lost-class {
+    background-color: rgb(145, 66, 64);
+}
+
+.game-state-header {
+    font-size: x-large;
+
+    font-weight: bold;
+
+    color: rgb(255, 255, 255);
+}
+
+.game-state-text {
+    font-size: larger;
+    font-weight: 500;
+
+    color: white;
+}
+
+.language-component-class {
+    margin: 5px;
+
+    font-size: large;
+
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.language-component-skull {
+    width: 40px;
+    height: 30px;
+    margin: 5px;
+}
+
+.languages-list-class {
+    margin: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 500px;
+
+    justify-content: center;
+}
+
+.word-component-class {
+    margin: 15px;
+
+    display: flex;
+    gap: 12px;
+
+    font-size: x-large;
+}
+
+.letter-component-class {
+    background-color: rgb(131, 127, 123);
+
+    height: 40px;
+    width: 40px;
+
+    text-align: center;
+    align-content: center;
+
+    border: 1px solid black;
+
+    border-bottom: 3px solid white;
+}
+
+.keyboard-class {
+    margin: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 500px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.keyboard-letter-class {
+    font-size: large;
+    margin: 2px;
+
+    height: 35px;
+    width: 35px;
+
+    text-align: center;
+}
+
+.keyboard-letter-class-not-used {
+    background-color: rgb(204, 204, 60);
+}
+
+.keyboard-letter-class-right {
+    background-color: rgb(92, 179, 52);
+}
+
+.keyboard-letter-class-wrong {
+    background-color: rgb(155, 102, 77);
+}
+
+.keyboard-letter-class:hover {
+    opacity: 0.6;
+}
+
+.new-game-button {
+    background-color: rgb(157, 235, 235);
+
+    font-size: larger;
+
+    padding: 5px 10px;
+    margin: 10px;
+
+    border-radius: 8px;
+
+    border: none;
+}
+
+.new-game-button:hover {
+    opacity: 0.75;
+}
+
+.new-game-button:active {
+    opacity: 0.45;
+}
